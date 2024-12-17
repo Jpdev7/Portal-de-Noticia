@@ -10,7 +10,7 @@
 
 /*  nesting css*/
   div:nth-child(2) {
-margin-inline: auto;
+  margin-inline: auto;
   }
 
   div:nth-child(3){
@@ -22,4 +22,5 @@ margin-inline: auto;
   padding-block: 14px;
   border: solid 1px var(--stroke-color);
   border-inline: none;
+  justify-content: space-between;
 }
